@@ -70,7 +70,7 @@ export const PageLayout = () => {
               <img
                 src={require("../Imagens/the.webp")}
                 alt="logo"
-                style={{ maxHeight: "60px", width: "auto" }}
+                style={{ maxHeight: "100px", width: "auto" }}
               />
             </div>
           </Toolbar>
@@ -87,8 +87,8 @@ export const PageLayout = () => {
   return (
     <>
       <ContainerMenu />
-      <Box style={{ marginTop: "80px" }}>
-        <Grid style={{ maxWidth: "768px", margin: "0 auto" }}>
+      <Box style={{ marginTop: "130px" }}>
+        <Grid style={{ maxWidth: "650px", margin: "0 auto" }}>
           <Outlet />
         </Grid>
       </Box>
