@@ -6,39 +6,23 @@ const itemData = [
     title: "The sims 1",
   },
   {
-    img: "https://upload.wikimedia.org/wikipedia/pt/5/5f/Nova_capa_de_The_Sims_4.png",
+    img: "https://upload.wikimedia.org/wikipedia/pt/c/ca/Capa_TS2.jpg",
     title: "The sims 2",
   },
   {
-    img: "",
-    title: "",
+    img: "https://upload.wikimedia.org/wikipedia/pt/5/5b/TheSims3_capa.jpg",
+    title: "The sims 3",
   },
   {
-    img: "",
-    title: "A Night at the Opera",
-  },
-  {
-    img: "",
-    title: "A Day at the Races",
-  },
-  {
-    img: "",
-    title: "News of the World",
-  },
-  {
-    img: "",
-    title: "Jazz",
-  },
-  {
-    img: "",
-    title: "The Game",
-  },
+    img: "https://upload.wikimedia.org/wikipedia/pt/3/34/Nova_capa_de_The_Sims_4.png",
+    title: "The sims 4",
+  }
 ];
 const Lancamentos = () => {
   // const lista = imageListClasses();
 
   return (
-    <ImageList sx={{ width: 500, height: 1100, margin: "0 auto" }} cols={1} >
+    <ImageList sx={{ width: 1000, height: 1100, margin: "0 auto" }} cols={2} >
       {itemData.map((item) => (
         <ImageListItem key={item.img}>
           <img

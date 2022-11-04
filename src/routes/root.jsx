@@ -3,13 +3,15 @@ import Contato from "../compotens/Contato";
 import Lancamentos from "../compotens/Lancamentos";
 import Noticias from "../compotens/Noticias";
 import { PageLayout } from "../compotens/PageLayout";
-import Sobre from "../compotens/Sobre";
+import SobrePag from "../compotens/SobrePag";
+import BoasVindas from "../compotens/BoasVindas";
 
 
 const route = createBrowserRouter(
     createRoutesFromElements(
             <Route path="/" element={<PageLayout />} >
-                <Route index path="/" element={<Sobre />} />
+                <Route index path="/" element={<BoasVindas />} />
+                <Route path="sobrepag" element={<SobrePag />} />
                 <Route path="noticias" element={<Noticias />} />
                 <Route path="contato" element={<Contato />} />
                 <Route path="lancamentos" element={<Lancamentos />} />
