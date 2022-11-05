@@ -1,9 +1,9 @@
 const SobrePag = () => {
-    //const error = useRouteError();
+
     return (
-        <div id="sobre_page" >
+        <div id="sobre_page" style={{textAlign:"justify"}} >
              <img src="https://vgbr.com/wp-content/uploads/2013/05/sims.jpg" alt="logo" />
-            <h1></h1>
+            <h1 style={{textAlign:"center"}}>Um pouco sobre o mundo sims</h1>
             <p>The Sims (Os Sims em Portugal) é uma série de jogos eletrônicos de simulação</p>
             <p>de vida real criado pelo designer de jogos Will Wright e produzida pela Maxis.</p>
             <p>O primeiro jogo da série, The Sims, foi lançado em 4 de fevereiro de 2000. </p>

@@ -19,10 +19,9 @@ const itemData = [
   }
 ];
 const Lancamentos = () => {
-  // const lista = imageListClasses();
 
   return (
-    <ImageList sx={{ width: 500, height: 1000, margin: "0 auto" }} cols={2} >
+    <ImageList style={{ maxWidth: "700px", margin: "0 auto" }} cols={2}>
       {itemData.map((item) => (
         <ImageListItem key={item.img}>
           <img

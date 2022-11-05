@@ -1,10 +1,11 @@
 import { Card, CircularProgress } from "@mui/material";
 import React, { useEffect, useState } from "react";
+
 const Noticias = () => {
   const [news, setNews] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
 
-  const url = "https://www.ea.com/pt-br/games/the-sims/the-sims-4/news";
+  const url = "https://jsonplaceholder.typicode.com/posts";
 
   useEffect(() => {
     setIsLoading(true);
