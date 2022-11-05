@@ -52,6 +52,7 @@ export default function SignIn() {
           <Typography component="h1" variant="h5">
             Deixe seu contato
           </Typography>
+          <p style={{textAlign:"center"}}>Inscreva-se agora para receber por e-mail as notícias, atualizações, conteúdo dos bastidores, ofertas exclusivas e mais sobre The Sims™ e outros produtos, notícias, eventos e promoções da EA.</p>
           <Box component="form" onSubmit={handleSubmit} noValidate sx={{ mt: 1 }}>
           <TextField
               margin="normal"
