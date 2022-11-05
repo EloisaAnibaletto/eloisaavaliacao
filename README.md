@@ -1,3 +1,5 @@
+//=================================================================================//
+
 Avaliação React 04/11/2022
 
 1- Criar uma aplicação em React.
@@ -20,7 +22,7 @@ Avaliação React 04/11/2022
 - Uma página de Contato com um formulário não funcional, apenas para preenchimento dos campos e um botão de envio;
 - Um menu de navegação a sua escolha.
 
-//=======================================================================================================================//
+//=================================================================================//
 
 O presente trabalho foi para fins avaliativos da materia de desenvolvimento web.
 O tema escolhimo foi a série The Sims da EA Games.
